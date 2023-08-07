@@ -47,6 +47,7 @@ map: A 2D array representing the room map with cells (S: cleanable space, C: col
 start: An object representing the initial position and facing direction of the robot (X: x-coordinate, Y: y-coordinate, Facing: "N", "W", "S", or "E").
 commands: An array of strings representing the commands for the robot (e.g., ["TL", "A", "C", "A"]).
 battery: An integer representing the initial battery level of the robot.
+
 Output JSON Format
 The output JSON file will contain the following parameters:
 

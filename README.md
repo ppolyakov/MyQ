@@ -37,10 +37,10 @@ To run the Cleaning Robot Console Application, you need the following:
 ### Building the Project
 
 1. Clone this repository to your local machine.
-2. Open the solution file (`CleaningRobot.sln`) in your C# development environment.
+2. Open the solution file (`RobotCleaner.sln`) in your C# development environment.
 3. Build the project to generate the executable file.
 
-Input JSON Format
+## Input JSON Format
 The input JSON file should contain the following parameters:
 
 map: A 2D array representing the room map with cells (S: cleanable space, C: column).
@@ -48,7 +48,7 @@ start: An object representing the initial position and facing direction of the r
 commands: An array of strings representing the commands for the robot (e.g., ["TL", "A", "C", "A"]).
 battery: An integer representing the initial battery level of the robot.
 
-Output JSON Format
+## Output JSON Format
 The output JSON file will contain the following parameters:
 
 Visited: An array of objects representing the unique positions visited by the robot during the cleaning process.
